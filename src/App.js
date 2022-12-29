@@ -40,6 +40,24 @@ function App() {
     });
   }
 
+  // function searchArticles(items){
+  //   return items.filter((item)=>{
+  //     return searchParam.some((newItem) =>{
+  //       return item[newItem].toString().toLowerCase().indexOf(q.toLocaleLowerCase()) > -1;
+  //     })
+  //   })
+  // }
+
+  // const searchArticles = (items) => {
+  //   if (items.length > 0) {
+  //     return items.filter((item) => {
+  //       return searchParam.some((newItem) => {
+  //         return item[newItem].toString().toLowerCase().indexOf(searchInput.toLocaleLowerCase()) > -1;
+  //       });
+  //     });
+  //   }
+  // };
+  console.log(data, "data");
   if (error) {
     return (
       <p>
